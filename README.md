@@ -2,7 +2,8 @@
 # Automated Robotic Arm Through The Use Of The Computer
 **ITIS Faenza - Electronics and Telecommunications Section**
 
-![C:\Users\Marco\Documents\SCUOLA 2010\TDP 2010\Schemi tesina\CCF12042011\_00000.jpg](md_res/Aspose.Words.15f73f74-1956-40bc-ba8a-f3b31786dbfa.011.jpeg)
+![](md_res/Aspose.Words.15f73f74-1956-40bc-ba8a-f3b31786dbfa.054.png)
+
 
 **Introduzione**
 
@@ -1667,6 +1668,3 @@ In Figura 6.8 è visualizzato l’Editor di testo personalizzato per la gestione
 Per evitare spiacevoli perdite di dati durante la scrittura del programma , è stato implementato anche un sistema di salvataggio automatico del dati ad intervallo di tempo regolabile .
 
 Selezionando questa voce è possibile stabilire ogni quanto dovrà comparire un promemoria che richiederà di salvare i dati su cui si sta lavorando .
-
-` `PAGE   \\* MERGEFORMAT 62
-
