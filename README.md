@@ -55,54 +55,6 @@ Sono presenti alcune appendici con le istruzioni per l'utilizzo dei software di 
 Infine la tesi allega un CD-ROM contenente i sue software sopra citati , il presente testo in versione digitale e il listato dei codici in C++.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Questa pagina è stata lasciata volutamente bianca 
-![](md_res/Aspose.Words.15f73f74-1956-40bc-ba8a-f3b31786dbfa.003.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 **CAP. 2**
 
 
