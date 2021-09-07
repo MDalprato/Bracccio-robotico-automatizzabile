@@ -1,9 +1,8 @@
 ﻿
 # Automated Robotic Arm Through The Use Of The Computer
-** ITIS Faenza - Electronics and Telecommunications Section **
+**ITIS Faenza - Electronics and Telecommunications Section**
 
-[![Watch the video](https://complianz.io/wp-content/uploads/2019/02/youtube.jpg)](https://www.youtube.com/watch?v=9u__p-9mbfY)
-
+![C:\Users\Marco\Documents\SCUOLA 2010\TDP 2010\Schemi tesina\CCF12042011\_00000.jpg](md_res/Aspose.Words.15f73f74-1956-40bc-ba8a-f3b31786dbfa.011.jpeg)
 
 **Introduzione**
 
