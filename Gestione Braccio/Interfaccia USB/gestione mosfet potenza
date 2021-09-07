@@ -1,0 +1,129 @@
+CIRCAD Version 4.0 -- Data File.
+
+Setup parameters:
+-gc.009,.013,.008,.012,.024,.011,0,,,0
+-gd.1,FFFFFF,909090,FFFFFF,FFFF00
+-gm7,6,3,0
+-gp0,0,1.0,0,0,0,0,0
+-gs0.100",3,1,5,25,100,.1mm
+-gx-1.0,-1.0,11.0,8.5
+-gz0,0
+-gtt0,0,0,0,0,0,0,0,0
+-gtb0,0,0,0,0,0,0,0,0
+-ga0
+-gfC
+
+Item parameters:
+-il.01
+-iv0,.05,.028
+-ip1,0,.06,.06,.038
+-it.072
+-ix0
+
+Layer/color/plot/type/sequence/name table:
+-y1
+-y0:00AA00AA,00FFFF00,0,0,Pad Master
+-y1:00FFFF00,000000FF,4,1,Symbols
+-y2:01000000,00FF00FF,7,2,CAM Control
+-y3:00000000,00FF00FF,0,3,Top Silk
+-y4:01000000,01000000,8,4,Bottom Silk
+-y5:01000000,01000000,1,5,Top Mask
+-y6:01000000,01000000,9,6,Bottom Mask
+-y7:00AA0000,01000000,2,7,Top Copper
+-y8:000000AA,01000000,10,8,Bottom Copper
+-y9:00FF5555,01000000,3,9,Vcc
+-y10:005555FF,01000000,3,10,Gnd
+-y11:005555FF,01000000,2,11,Mid Layer 1
+-y12:0055FF55,01000000,2,12,Mid Layer 2
+-y13:0055FFFF,01000000,2,13,Mid Layer 3
+-y14:00FF5555,01000000,2,14,Mid Layer 4
+-y255:00FFFF00,00000000,7,255,Ratnest
+
+Gerber parameters:
+-dp.01,.005,.005,.03,.002
+-dy
+-dyTSS:6,3
+-dyBSS:14,4
+-dyTSM:2,5
+-dyBSM:10,6
+-dyTOP:0,7
+-dyBOT:8,8
+-dyDRL:4
+-dyLST:7
+-dySYM:5,1
+
+Component libraries:
+-b
+-bTHD.LIB
+-bSMD.LIB
+-bPCB.LIB
+
+Primary Data File:
+Component: 6 0 0 X1 Y1 X2 Y2 Parameters
+Text: 4 layer height X0 Y0 length angle anchor font data
+Pad: 3 layer type X0 Y0 width height hole angle pin signal
+Arc: 2 layer width X0 Y0 radius start sweep ellipse angle signal
+Line: 1 layer width X1 Y1 X2 Y2 signal
+6 4 0 0 0 10.0 7.5 $$BOX
+1 1 .01 0 0 10.0 0
+1 1 .01 10.0 0 10.0 7.5
+1 1 .01 10.0 7.5 0 7.5
+1 1 .01 0 7.5 0 0
+0 6 0 0 0
+6 4 0 8.35 5.875 10.0 7.5 $$DTD
+4 1 .072 8.35 5.7 .98346 0 0 0 Board type: FR4
+4 1 .072 8.35 5.575 1.33126 0 0 0 Board thickness: .062"
+4 1 .072 8.35 5.45 1.15136 0 0 0 Copper weight: 2oz
+4 1 .072 8.35 5.325 .88752 0 0 0 Layer count: 2
+4 1 .072 8.35 5.15 1.19934 0 0 0 All dimensions are inÿinches.
+4 1 .072 8.35 4.875 1.57114 0 0 0 Board should have greenÿsolder mask over bareÿcopper (SMOBC) with whiteÿsilk screening on top.
+4 1 .072 8.35 4.375 1.57114 0 0 0 View is from the top sideÿof the board.
+4 1 .072 8.55 7.275 .22788 0 1 0 Tool
+4 1 .072 8.55 7.15 .26386 0 1 0 Code
+4 1 .072 9.175 7.4 .9115 0 1 0 Drill tape data
+4 1 .072 9.0 7.275 .22788 0 1 0 Hole
+4 1 .072 9.0 7.15 .21588 0 1 0 Size
+4 1 .072 9.4 7.275 .1919 0 1 0 Sym
+4 1 .072 9.4 7.15 .15592 0 1 0 bol
+4 1 .072 9.775 7.15 .31182 0 1 0 Count
+4 1 .072 9.775 7.275 .22788 0 1 0 Hole
+1 1 .01 8.35 7.5 10.0 7.5
+1 1 .01 10.0 7.5 10.0 5.875
+1 1 .01 10.0 5.875 8.35 5.875
+1 1 .01 8.35 5.875 8.35 7.5
+1 1 .01 8.35 7.375 10.0 7.375
+1 1 .01 8.35 7.125 10.0 7.125
+1 1 .01 8.75 7.375 8.75 5.875
+1 1 .01 9.25 7.375 9.25 5.875
+1 1 .01 9.55 7.375 9.55 5.875
+0 6 0 10.0 7.5
+6 4 0 6.5 0 10.0 1.25 $$TTL
+4 1 .06 6.55 1.1 .12992 0 0 0 Co:
+4 1 .06 6.55 .85 .23986 0 0 0 Title:
+4 1 .06 6.55 .6 .30982 0 0 0 Board:
+4 1 .06 6.55 .35 .29984 0 0 0 Drawn:
+4 1 .06 6.55 .1 .24986 0 0 0 Date:
+4 1 .126 7.0 1.075 .06298 0 0 0 ?
+4 1 .126 7.0 .825 .06298 0 0 0 ?
+4 1 .126 7.0 .575 .06298 0 0 0 ?
+4 1 .126 7.0 .325 .06298 0 0 0 ?
+4 1 .126 7.0 .075 .06298 0 0 0 ?
+4 1 .072 9.0 .6 .47974 0 0 0 Revision:
+4 1 .072 9.0 .35 .25186 0 0 0 Size:
+4 1 .072 9.0 .075 .33582 0 0 0 Sheet
+4 1 .126 9.45 .075 .06298 0 0 0 1
+4 1 .126 9.5 .325 .08398 0 0 0 A
+4 1 .126 9.625 .575 .08398 0 0 0 A
+4 1 .072 9.625 .075 .11994 0 0 0 of
+4 1 .126 9.825 .075 .06298 0 0 0 1
+1 1 .01 6.5 0 6.5 1.25
+1 1 .01 6.5 1.25 10.0 1.25
+1 1 .01 6.5 1.0 10.0 1.0
+1 1 .01 6.5 .75 10.0 .75
+1 1 .01 10.0 .5 6.5 .5
+1 1 .01 6.5 .25 10.0 .25
+1 1 .01 6.5 0 10.0 0
+1 1 .01 10.0 0 10.0 1.25
+0 6 0 10.0 0
+
+END OF FILE

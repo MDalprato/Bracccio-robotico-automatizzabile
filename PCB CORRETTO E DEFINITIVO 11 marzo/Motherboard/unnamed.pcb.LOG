@@ -1,0 +1,59 @@
+NETSCAN ERROR LOG       C:\Users\Marco\Desktop\board\unnamed.pcb       02/25/11
+-------------------------------------------------------------------------------
+SOURCE SIGNAL           TARGET SIGNAL           WARNING/ERROR MESSAGE
+-------------------------------------------------------------------------------
+
+$0001                   Motor                   Clearance from U1-3 to dot (1.600,5.740)
+$0002                   GND                     Clearance from D3-A to D3-K
+$0003                   GND                     Clearance from D4-A to D4-K
+$0004                   GND                     Clearance from D5-A to D5-K
+$0007                   $0031                   Crosslinked to U4-14 -- DRC aborted
+$0008                                           Clearance from P2-6 to line (6.650,5.840),(6.650,6.250)
+$0009                   $0025                   Crosslinked to U4-3 -- DRC aborted
+$0010                                           Clearance from P2-8 to line (6.650,5.840),(6.650,6.250)
+$0011                   $0027                   Crosslinked to U4-6 -- DRC aborted
+$0012                                           Clearance from P2-10 to line (6.650,5.840),(6.650,6.250)
+$0013                   $0029                   Crosslinked to U4-11 -- DRC aborted
+$0014                                           Clearance from P2-12 to line (6.650,5.840),(6.650,6.250)
+$0015                   Motor                   Crosslinked to C2-1 -- DRC aborted
+$0017                   $0019                   Crosslinked to U3-6 -- DRC aborted
+$0019                   $0021                   Crosslinked to U3-11 -- DRC aborted
+$0021                   $0023                   Crosslinked to U3-14 -- DRC aborted
+$0023                   $0017                   Crosslinked to U3-3 -- DRC aborted
+$0025                   $0011                   Crosslinked to U2-6 -- DRC aborted
+$0027                   $0013                   Crosslinked to U2-11 -- DRC aborted
+$0029                   $0015                   Crosslinked to U2-14 -- DRC aborted
+$0031                   $0009                   Crosslinked to U2-3 -- DRC aborted
+$0034                   12V                     Crosslinked to dot (1.700,5.740) -- DRC aborted
+$0036                                           Linked to unsignaled PONTE-1
+$0036                                           Discontinuity from PONTE-1 to PONTE-2
+$0036                   $0041                   Clearance from line (4.350,5.880),(4.350,6.180) to U3-15
+$0037                                           Linked to unsignaled Ponte-1
+$0037                                           Discontinuity from Ponte-1 to Ponte-2
+$0037                                           Clearance from Ponte-1 to line (6.290,4.910),(3.310,4.910)
+$0038                                           Linked to unsignaled pad (4.450,4.720)
+$0038                                           Discontinuity from Ponte-1 to U3-2
+$0038                                           Linked to unsignaled Ponte-2
+$0038                                           Discontinuity from Ponte-2 to pad (5.140,5.500)
+$0039                                           Linked to unsignaled Ponte-1
+$0039                                           Discontinuity from Ponte-1 to Ponte-2
+$0039                                           Linked to unsignaled pad (4.110,5.330)
+$0039                                           Discontinuity from pad (4.110,5.330) to pad (4.900,5.500)
+$0039                                           Discontinuity from U3-7 to U4-7
+$0040                                           Linked to unsignaled PONTE-2
+$0040                                           Discontinuity from PONTE-2 to U3-10
+$0040                                           Linked to unsignaled PONTE-1
+$0040                                           Linked to unsignaled Ponte-2
+$0040                                           Discontinuity from Ponte-2 to Ponte-1
+$0041                   $0036                   Clearance from U3-15 to line (4.350,5.880),(4.350,6.180)
+12V                     $0034                   Crosslinked to P2-33 -- DRC aborted
+GND                     12V                     Crosslinked to P2-34 -- DRC aborted
+Motor                   $0015                   Crosslinked to P2-13 -- DRC aborted
+
+Minimum NetScan Clearance Parameters
+Line to Line: 0.008"
+Line to Pad:  0.012"
+Pad to Pad:   0.024"
+
+46 nets scanned, 46 errors detected.
+
