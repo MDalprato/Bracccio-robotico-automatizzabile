@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1-transitional.dtd">
+<html><head><!-- Headers --><title>Fotone Revamped USB Interface</title>
+
+
+
+  
+    
+    
+
+    <style>
+      body {
+       font-family: georgia, times, serif;
+      }
+
+      h1 {
+       font-size: 2em;
+       font-weight: bold;
+      }
+
+      h2 {
+       font-size: 1.5em;
+       font-weight: bold;
+      }
+
+      ul {
+        list-style-type: square;
+      }
+
+      .centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+        text-align: center;
+      }
+
+      .section {
+        margin-left: 1em;
+      }
+    </style></head><body>
+    <!-- Document header -->
+    <a name="top">
+    <img src="index_files/fotone.png" class="centered">
+    </a><h1 class="centered"><a name="top">Fotone Revamped USB</a></h1>
+<a name="top">    </a><p class="centered">
+<a name="top">      © 2008 Federico Santandrea<br>
+      e-mail: </a><a href="mailto:mail@decolorante.net">mail@decolorante.net</a><br>
+    </p>
+
+    <!-- Table of contents -->
+    <h2>Table of contents</h2>
+    <p class="section">
+      </p><ul>
+        <li><a href="#introduction">Introduction</a>
+        </li><li><a href="#hardware">Hardware</a>
+        </li><li><a href="#firmware">Firmware</a>
+        </li><li><a href="#driver">Driver</a>
+        </li><li><a href="#library">Library</a>
+        </li><li><a href="#further">Further information</a>
+      </li></ul>
+    
+
+    <!-- Introduction -->
+    <a name="introduction">
+    </a><h2><a name="introduction">Introduction</a></h2>
+<a name="introduction">    </a><p class="section">
+<a name="introduction">      Fotone Revamped is a combination of software libraries, microcontroller
+      firmware and hardware schematics, used to interface digital electronic
+      circuits to a Personal Computer via the USB port with relative ease.
+      This document covers the steps required in order to put the system in
+      operation and be ready to use it in your own projects.<br><br>
+      Fotone works well under Windows and Linux operating systems. Furthermore,
+      the Fotone library is completely portable: any otherwise portable
+      applications you create using the Fotone library can be compiled either
+      in Windows and Linux without any changes to the source code.
+      <br><br>
+      Follow the steps in order and soon you'll have a perfectly working
+      USB development system.
+    </a></p>
+
+<a name="introduction">    <!-- Hardware -->
+    </a><a name="hardware">
+    </a><h2><a name="hardware">Hardware</a></h2>
+<a name="hardware">    </a><p class="section">
+<a name="hardware">      Fotone's hardware is the most simple of its components. It basically
+      consists in a break-out board for a PIC18F4550's digital I/O pins,
+      a quartz oscillator and some filtering. You may optionally include
+      a LED which lights up whenever packets are travelling from/to the
+      board. You might make the board how you want; however I found it
+      to be easier if you have a double layer PCB to route the traces on.<br>
+      <br></a><a href="http://www.decolorante.net/fotone/download/fotone2_schematic.png">Get the schematic diagram
+      here</a>.<br><br>
+      <b>Note:</b> On the schematic you can see two 9-way connectors.
+      This is because the original project has pin/screw connector sockets
+      to hook up to breadboard wires. Of course you can change that. For
+      instance: should you want to have the Fotone hardware integrated as
+      a part of a larger board which does all you need to do in your project,
+      you simply draw traces from the indicated pins to the digital I/O lines
+      of your circuit, ditching the connectors. This way you won't even notice
+      that you are using Fotone in order to interface to the USB port: it simply
+      becomes a part of your circuit. <i>However, if you plan to build a stand-alone
+      board with connectors where you can wire things, you should be fine with
+      exactly implementing the proposed schematic.</i><br><br>
+      <b>Note:</b> Always keep in mind that you have to burn firmware on the PIC
+      microcontroller. This means that you either have to burn it before you
+      solder the microcontroller on the board, or even better solder a socket so
+      you can take the microcontroller in and out should the need arise.
+    </p>
+
+    <!-- Firmware -->
+    <a name="firmware">
+    </a><h2><a name="firmware">Firmware</a></h2>
+<a name="firmware">    </a><p class="section">
+<a name="firmware">      You'll need to get the Fotone firmware into the PIC. Use
+      your favourite programmer and programming software to burn the precompiled
+      HEX file into the microcontroller. The file is in standard format and can
+      be used with MPLAB IDE, Picstart+ and the like. Should you need source code
+      for the firmware, e-mail me: but I tell you in advance that there's not
+      much that can be modified purposefully.<br><br>
+      </a><a href="http://www.decolorante.net/fotone/download/fotone2_firmware.hex">Get the firmware here</a>.
+    </p>
+
+    <!-- Driver -->
+    <a name="driver">
+    </a><h2><a name="driver">Driver</a></h2>
+<a name="driver">    </a><p class="section">
+<a name="driver">      <b>Note:</b> If you are including Fotone in a device you might sell or
+      otherwise give away to others, make sure they know how to install the
+      driver as explained in this section; also make sure that you distribute
+      the driver files with your application, or the operating system will
+      not be able to detect the hardware device.<br><br>
+      <b>Note:</b> If you are attaching the peripheral to a Linux system,
+      ignore this section. As long as you have the libusb package installed,
+      the system automatically recognizes the hardware without the user
+      having to do anything.<br><br>
+      </a><a href="http://www.decolorante.net/fotone/download/fotone2_windows_driver.zip">Get Windows driver here</a>.
+      <br><br>
+      To install these drivers, plug in the device and answer <i>No</i> when
+      Windows asks you to automatically search for driver software (or connect
+      to Windows Update). When it asks for driver location (or "driver disk")
+      simply give the path to the unzipped driver. You are now set up. This is
+      an one-time step: you won't need to install drivers again on this machine.
+    </p>
+
+    <!-- Library -->
+    <a name="library">
+    </a><h2><a name="library">Library</a></h2>
+<a name="library">    </a><p class="section">
+<a name="library">      The final step is developing your computer application, in C++. Development
+      packages are provided for Linux, Microsoft Visual C++, Borland C++ Builder
+      and MinGW. There is no need to download all packages, choose only the one you need.
+      You'll then have to copy the contained files in your compiler's directory, so that
+      the "include" and "lib" folders merge with the existent ones. The only exception
+      is the Debian package, which installs automatically.<br><br>
+      <b>Note:</b> The required libusb library is included in Windows development packages.
+      If you develop under Linux, you'll need to install it first.<br><br>
+
+      </a><a href="http://www.decolorante.net/fotone/download/libfotone2-dev_linux.tar.gz">Get Linux development package (tarball)</a>.<br>
+      <a href="http://www.decolorante.net/fotone/download/libfotone2-dev_linux.deb">Get Linux development package (.deb format)</a>.<br>
+      <a href="http://www.decolorante.net/fotone/download/libfotone2-dev_msvc.zip">Get Microsoft Visual C++ development package</a>.<br>
+      <a href="http://www.decolorante.net/fotone/download/libfotone2-dev_bcc32.zip">Get Borland C++ Builder development package</a>.<br>
+      <a href="http://www.decolorante.net/fotone/download/libfotone2-dev_mingw.zip">Get MinGW development package</a>.<br>
+      <br>
+      Include &lt;fotone.h&gt; where you want to use the library. Also remember to tell the linker
+      that you want to link with both libfotone and libusb. The function set is not complex. You have
+      just a few instructions to remember:<br>
+      </p><ul>
+        <li><b>Fotone* object = new Fotone();</b> - Constructor. Creates the Fotone object which
+        will handle subsequent operations. Please make sure only one Fotone object exists at
+        the same time.
+        </li><li><b>object-&gt;Connect();</b> - Tries to connect the Fotone object with the USB hardware.
+        It returns a bool value: true if successful, false if failed (for instance, if the board is not
+        attached). You must connect with the hardware before attempting to do any I/O operation.
+        </li><li><b>object-&gt;InputReadAll();</b> - Reads all the 8 inputs. Returns an unsigned char in which
+        every bit is the state of the corresponding input (i.e. bit 0 represents the state of input 0,
+        and so on).
+        </li><li><b>object-&gt;OutputWriteAll(unsigned char);</b> - Sets all the 8 outputs. Returns nothing.
+        Every output is set to the corresponding bit in the argument passed (i.e. output 0 is set to the
+        state of bit 0, and so on).
+        </li><li><b>object-&gt;InputRead(n);</b> - Returns a boolean value indicating the state of the input
+        indicated by "n".
+        </li><li><b>object-&gt;OutputSet(n);</b> - Sets the state of the "n" output to true.
+        </li><li><b>object-&gt;OutputReset(n);</b> - Resets the state of the "n" output to false.
+        </li><li><b>object-&gt;OutputWrite(n, bool);</b> - Sets the state of the "n" output to the passed
+        boolean value.
+      </li></ul>
+      With these functions, you can fully interface to the board, and with your digital I/O lines.
+    
+
+    <!-- Further information -->
+    <a name="further">
+    </a><h2><a name="further">Further information</a></h2>
+<a name="further">    </a><p class="section">
+<a name="further">	  Should you need more information, e-mail me at </a><a href="mailto:mail@decolorante.net">
+      <i>mail@decolorante.net</i></a>. I'll try to reply to all questions, given they are
+      not absurd or extremely lame. Of course you can ask your questions in Italian.<br><br>
+      <b>Have fun!</b>
+    </p>
+  
+</body></html>

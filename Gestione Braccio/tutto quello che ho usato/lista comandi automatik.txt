@@ -1,0 +1,28 @@
+------- Funzioni automatiche --------
+
+Muovi a sinistra - auto
+Muovi a destra - auto
+Spalla in su - auto
+Spalla in giu - auto
+Gomito in su
+Gomito in giu - auto
+Polso in su
+Polso in giu - auto
+Apri pinza
+Chiudi pinza
+
+------- Funzioni senza termine --------
+
+Muovi a destra
+Muovi a sinistra
+Spalla in su
+Spalla in giu
+Gomito in su
+Gomito in giu
+Polso in su
+Polso in giu
+Apri pinza
+Chiudi pinza
+Accendi Led
+Skip
+End Terminal

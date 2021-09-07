@@ -1,0 +1,40 @@
+
+****************************************** Lista generica ******************************************
+
+Trasformatore stabilizzato in tensione da 220 -> 6 volt con corrente massima di circa 1 Ampere
+Rotolo stagno con anima 
+
+
+
+****************************************** Lista componenti interfaccia USB ******************************************
+
+Pic 18f4550
+Oscillatore 20 Mhz
+2 condensatori 22pF 
+Array resistivo con singolo comune da 8 Kohm
+condensatore da 470 nF
+resistenza da 330 ohm
+led rosso 0.5 cm
+condensatore da 0.1uF
+Connettore USB femmina da circuito stampato
+Resistenza da 10 Kohm
+2  morsetti da due poli ( quelli per jumper ) da circuito stampato 
+6  morsetti da 3 poli  circuito stampato ( quelli verdi )
+1  morsetti da 2 poli da cicruito stampato 
+
+****************************************** Lista componenti scheda driver ******************************************
+
+3 IC driver L293D
+3 zoccoli driver L293D ( 16 pin )
+Transistor LM317
+resistenza da 1 kohm
+3 led rosso 0.5 cm
+condensatore da 0.1 uF
+trimmer variabile da 2.2 kohm ( 4.7 kohm va bene uguale )
+2 diodi 1n4001
+condensatore elettorlitico 1 uF
+condensatore elettrolitico 10 uF
+2 resistenza 640 ohm 
+resistenza 240 ohm 
+4  morsetti da 3 poli  circuito stampato ( quelli verdi )
+2  morsetti da due poli ( quelli per jumper ) da circuito stampato 

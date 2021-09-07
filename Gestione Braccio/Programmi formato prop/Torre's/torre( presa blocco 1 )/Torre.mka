@@ -1,0 +1,28 @@
+########### Automatik v 1.0.0 ############
+############# Inizio Script ##############
+Spalla in su - auto
+Gomito in giu - auto
+Polso in giu - auto
+Chiudi pinza - auto
+Apri pinza
+////////// Prendi bloccco 1 //////////////
+Gomito in su
+Spalla in giu - auto
+Polso in su
+Chiudi pinza - auto
+Gomito in su
+////////// Sposta a sinistra a appoggia /////////
+Muovi a sinistra - auto
+Spalla in su - auto
+Gomito in giu - auto
+Polso in su
+Spalla in giu - auto
+Polso in su
+Spalla in giu - auto
+Polso in su
+Spalla in giu - auto
+Polso in su
+Spalla in giu - auto
+Apri pinza
+Accendi Led
+########### END TERMINAL ############

@@ -1,0 +1,23 @@
+########### Automatik v 1.0.0 ############
+############# Inizio Script ##############
+Muovi a sinistra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a sinistra - auto

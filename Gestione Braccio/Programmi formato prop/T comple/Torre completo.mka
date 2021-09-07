@@ -1,0 +1,54 @@
+########### Automatik v 1.0.0 ############
+############# Inizio Script ##############
+Spalla in su - auto
+Gomito in giu - auto
+Polso in giu - auto
+Chiudi pinza - auto
+Apri pinza
+////////// Prende e sposta il cilindro 1 //////
+Gomito in su
+Spalla in giu - auto
+Polso in su
+Chiudi pinza - auto
+Gomito in su
+Muovi a sinistra - auto
+Spalla in giu - auto
+Polso in su
+Spalla in giu - auto
+Apri pinza
+////////// Prende e sposta il cilindro 2 //////
+Spalla in su - auto
+Gomito in giu - auto
+Polso in giu - auto
+Muovi a destra - auto
+Gomito in su
+Polso in su
+Spalla in giu - auto
+Gomito in giu - auto
+Polso in su
+Chiudi pinza - auto
+Polso in su
+Muovi a sinistra - auto
+Polso in giu - auto
+Gomito in su
+Spalla in giu - auto
+Polso in su
+Spalla in giu - auto
+Apri pinza
+Gomito in su
+Spalla in su - auto
+////////// Prende e sposta il cilindro 3 //////
+Muovi a destra - auto
+Spalla in su - auto
+Gomito in giu - auto
+Polso in su
+Spalla in giu - auto
+Skip
+Chiudi pinza - auto
+Spalla in su - auto
+Muovi a sinistra - auto
+Spalla in giu - auto
+Apri pinza
+Spalla in su - auto
+Muovi a destra - auto
+########### END TERMINAL ############

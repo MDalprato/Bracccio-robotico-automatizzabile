@@ -1,0 +1,7 @@
+########### Automatik v 1.0.0 ############
+############# Inizio Script ##############
+Polso in su
+Gomito in su
+Spalla in giu - auto
+Polso in giu - auto
+########### END TERMINAL ############

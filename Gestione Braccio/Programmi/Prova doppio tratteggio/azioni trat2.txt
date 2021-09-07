@@ -1,0 +1,56 @@
+########### Automatik v 1.0.0 ############
+############# Inizio Script ##############
+####### Inizio tratteggio #############
+Polso in su
+Muovi a sinistra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a sinistra - auto
+########SPOSTA BASE ################
+Gomito in su
+Spalla in giu - auto
+Polso in giu - auto
+####### Inizio tratteggio #############
+Polso in su
+Muovi a sinistra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a destra - auto
+Polso in giu - auto
+Muovi a destra - auto
+Polso in su
+Muovi a sinistra - auto
+End Terminal
+
+
+
