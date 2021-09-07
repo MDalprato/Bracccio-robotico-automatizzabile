@@ -1,8 +1,7 @@
 # Automated Robotic Arm Through The Use Of The Computer
 ** ITIS Faenza - Electronics and Telecommunications Section **
 
-
-[![Robotic Arm](https://github.com/MDalprato/Bracccio-robotico-automatizzabile/blob/main/Arm%20control/tutto%20quello%20che%20ho%20usato/41569_58944565732_4312_n.jpg?raw=true)](https://www.youtube.com/watch?v=9u__p-9mbfY)
+[![Watch the video](https://complianz.io/wp-content/uploads/2019/02/youtube.jpg)](https://www.youtube.com/watch?v=9u__p-9mbfY)
 
 
 <p> Industrial development and the emergence of new technologies have allowed the creation of increasingly complex and complicated products from a technical-scientific point of view. </p>
