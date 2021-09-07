@@ -1,4 +1,4 @@
-# AUTOMATED ROBOTIC ARM THROUGH THE USE OF THE COMPUTER
+# Automated Robotic Arm Through The Use Of The Computer
 ** ITIS Faenza - Electronics and Telecommunications Section **
 
 <p> Industrial development and the emergence of new technologies have allowed the creation of increasingly complex and complicated products from a technical-scientific point of view. </p>
